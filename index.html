@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Move Blocks</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+
+    <body>
+
+        <!---A container -->
+        <div class="container">
+        <!---the message -->
+        <p>
+            <span class="word1">Whoooh!!</span>
+
+            <span class="word2">Drop AND Drag</span>
+
+             <span class="word3">is FUN !</span>
+
+            <span class="word4"><a href="https://github.com/GarethW1994">by Gareth</a></span>
+        </p>
+
+        <!-- Movalble blocks -->
+        <div class="block1" name = "blocks" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', null)">
+        </div>
+        <div class="block2" name = "blocks" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', null)">
+        </div>
+            <div class="block3" name = "blocks" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', null)">
+        </div>
+            <div class="block4" name = "blocks" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', null)">
+        </div>
+            <div class="block5" name = "blocks" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', null)">
+        </div>
+            <div class="block6" name = "blocks" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', null)">
+        </div>
+            <div class="block7" name = "blocks" draggable="true" ondragstart="event.dataTransfer.setData('text/plain', null)">
+        </div>
+        </div>
+
+         <div class="dropZone">
+
+
+        </div>
+
+
+
+
+
+
+        <script src="jquery.js" charset="utf-8"></script>
+        <script src="blocks.js" charset="utf-8"></script>
+    </body>
+</html>
